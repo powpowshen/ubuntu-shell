@@ -1,4 +1,4 @@
-FROM danielguerra/ubuntu-xrdp:18.04
+FROM danielguerra/ubuntu-xrdp
 RUN apt update && apt install -y \
   openconnect \
   tmux \
